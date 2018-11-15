@@ -1,0 +1,25 @@
+{
+    "name": "jwt",
+    "authors": [{
+        "name": "blank",
+        "email": "1161709455@qq.com"
+    }],
+    "description": "easyswoole framework with jwt",
+    "keywords": [
+        "easyswoole",
+        "jwt"
+    ],
+    "require": {
+        "easyswoole/easyswoole": "3.x-dev",
+        "easyswoole/mysqli": "^1.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
